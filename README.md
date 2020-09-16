@@ -1,39 +1,137 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# MSP1-Villa-Designs-Website
 
-Welcome USER_NAME,
+This is the Website for Villa Designs (insert website link). Villa Designs is a local independent business that specialise in manufacturing and selling woodworking products on a made to order basis. The Website has been designed to be accessible on a range of devices.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## User Experience (UX)
 
-## Gitpod Reminders
+**User stories**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**First Time User Goals:**
+*  I want to understand the purpose of the website and learn more about the business.
+*  I want to be able to navigate the website easily and be able to access content.
+*  I want to clearly see the product information & prices and be able to order products.
+*  I want to locate social media links to see if they are trustworthy.  
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
+**Returning User Goals:**
+*  As a returning visitor, I want to find out about new products.
+*  I want to be able to contact the business easily.
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Site Owners Goals:**  
+*  I want to raise brand awareness.
+*  I want to show case products in an appealing and eye catching way.
+*  I want customers to be able to place orders online. 
+*  I want customers to be able to contact me with bespoke project requests.
+*  I want to display dates and locations of events/markets we will be at.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+**Design**
+*  Colour Scheme
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+*  Typography
 
-## Updates Since The Instructional Video
+*  Imagery
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+* Wireframes
+[Villa Design Wireframe](https://balsamiq.cloud/slg90p5/pqsk0xe)
+ 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ ## Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+ * Responsive on all devices
+ * Links to social media
+ * Contact form
+ * Interactive features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+ ## Technologies Used
+ 
+ **Languages Used** 
 
---------
+ * HTML5
+ * CSS3
 
-Happy coding!
+**Frameworks, Libraries & Programs Used**
+
+1. Bootstrap 4.5.2:
+* Bootstrap was used with to assist with stylig and responsiveness of the website.
+
+2. Font Awesome:
+* Font Awesome was used to provide the Icons throughout this website.
+
+3. Google Fonts:
+* Google fonts was used to import the font into the style.css file
+
+4. Git: 
+* Git was used by utilizing the Gitpod terminal to commit to Git and push to GitHub
+
+5. GitHub:
+* GitHub was used to create a repositorie and store the code after it was pushed from Git.
+
+6. Photoshop:
+* Photoshop was used to customise all images throughout the website and create the logo.
+
+7. Balamiq:
+* Wireframes were created using Balsamiq
+
+8. Adobe Illustrator:
+* Adobe Illustrator was used to create header graphics
+
+9. Facebook for Developers:
+* Facebook for Developers was used to add the timeline plugin feature to the homepage. 
+
+
+## Testing
+
+The Website was tested on Internet Explorer, Google Chrome, Firefox and Safari.
+A selection of devices were used to test the website and the mobile responsiveness.
+
+**Testing User Stories**
+
+**First Time User Goals:**
+*  I want to understand the purpose of the website and learn more about the business.
+*  I want to be able to navigate the website easily and be able to access content.
+*  I want to clearly see the product information & prices and be able to order products.
+*  I want to locate social media links to see if they are trustworthy.  
+
+
+**Returning User Goals:**
+*  As a returning visitor, I want to find out about new products.
+*  I want to be able to contact the business easily.
+
+
+**Site Owners Goals:**  
+*  I want to raise brand awareness.
+*  I want to show case products in an appealing and eye catching way.
+*  I want customers to be able to place orders online. 
+*  I want customers to be able to contact me with bespoke project requests.
+*  I want to display dates and locations of events/markets we will be at.
+
+## Bugs
+
+
+
+## Deployment 
+
+
+
+## Credits
+
+**Code**
+
+* Bootstrap4: Bootstrap was used throughout the project to ensure the website was responsive.
+
+* Facebook Web Developers: the code was used from Facebook Web Developers to embed the facebook feed on the homepage.
+
+
+**Content & Media**
+
+All content was written by the developer.
+
+
+**Acknowledgements**
+
+* My Mentor Aaron Sinnott for feedback
+* Tutor support at Code Institute for their support 
+* Code Institute 
