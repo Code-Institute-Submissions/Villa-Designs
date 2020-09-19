@@ -1,0 +1,156 @@
+/*------------------------------Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto&family=Roboto+Slab&display=swap');
+
+/*------------------------------Colours*/
+
+.bg-color-strap {
+    background-color: #1c1c1b;
+    color: #f4e1d7;
+}
+
+.ui-menu-color {
+    background-color: #f4e1d7;    
+}
+
+/*------------------------------Header*/
+header{ 
+    margin: 0;
+}
+
+.logo {
+    background: url(../images/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height:200px;
+    background-color: #1c1c1b;
+    }
+
+.strap {
+    font-family: "Bree Serif";
+    font-size: 35px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    height: 32px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;        
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 18px;
+    padding: 0;
+}
+
+.navbaritem {
+    text-align: left;
+    padding: 0;
+
+}
+
+.navbaritem a {
+    width: 100%;
+    text-decoration: none;
+    color: #1c1c1b;
+}
+
+.navbaritem span {
+    width: 100%;
+    display: block;
+    text-align: center; 
+    text-transform: uppercase;    
+             
+}
+
+.navbaritem a i {
+    padding-top: 12px;
+    display: block;
+    font-size: 32px;
+    text-align: center; 
+}
+
+/*------------------------------Slideshow*/
+
+
+/*------------------------------Footer*/
+ 
+footer {
+    background-color: #1c1c1b;
+    min-height: 120px;
+    margin: 0;
+    
+}
+
+.social-networks {
+    text-align: center;
+    min-height: 100px;
+    margin: 0;
+}
+
+ 
+.social-networks li a i {
+    width: 80px;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #f4e1d7;    
+    height: 32px;
+    padding: 12px 0;
+}
+     
+/*----------------------------Product Page*/
+
+.products-container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f4e1d7;
+    overflow: auto;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #1c1c1b;
+    float: left;
+    width: 390px;
+
+}
+     
+.gallery img {
+    width: 100%;
+    height: auto;    
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*-------------------------Bespoke Projects*/
+
+.container-projects {
+    height: 100vh;
+
+    background-image: url(/images/img12.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
