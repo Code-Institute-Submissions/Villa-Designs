@@ -13,6 +13,10 @@
     background-color: #f4e1d7;    
 }
 
+body {
+    background: #f4e1d7;
+}
+
 /*------------------------------Header*/
 header{ 
     margin: 0;
@@ -110,47 +114,193 @@ footer {
     height: 32px;
     padding: 12px 0;
 }
-     
+/*----------------------------Events Page*/
+
+
+.events-image {
+    height: 300px;
+    background: url("../images/Marketstall.jpg") no-repeat;
+    position: relative;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+
+.events-heading {
+    position: relative;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.events-dates {
+    position: relative;
+    margin-left: 100px;
+}
+
+
 /*----------------------------Product Page*/
+.products-heading {
+    margin-left: 15px;
+}
+
 
 .products-container{
-    max-width: 1200px;
-    margin: auto;
-    background-color: #f4e1d7;
-    overflow: auto;
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.gallery {
-    margin: 5px;
-    border: 1px solid #1c1c1b;
-    float: left;
-    width: 390px;
-
-}
-     
-.gallery img {
-    width: 100%;
-    height: auto;    
+.products-container .box {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #1c1c1b;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
-.desc {
-    padding: 15px;
+.products-container .box .imgBox {
+    position: relative;
+    overflow: hidden;
+}
+
+.products-container .box .imgBox img {
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.products-container .box:hover .imgBox img {
+    transform: scale(1.2)
+}
+
+.products-container .box .productDetails {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.products-container .box:hover .productDetails {
+    transform: scaleY(1);
+}
+
+.products-container .box .productDetails .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: center;
+    padding: 15px;
+    color: #f4e1d7;
+}
+
+.products-container .box .productDetails .content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #b9a195;
 }
 /*-------------------------Bespoke Projects*/
 
-.container-projects {
-    height: 100vh;
 
-    background-image: url(/images/img12.jpg);
-    background-repeat: no-repeat;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.projects {
     position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/img12.jpg);
+    background-size: cover;
 }
+
+.projects .content {
+    max-width: 800px;
+    align-items: center;
+}
+.projects .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fafafa;
+}
+.projects .content p {
+    font-weight: 300;
+    color: #fafafa;
+}
+.contactForm {
+    width: 100%;
+    padding: 40px;
+    background: #f4e1d7;    
+}
+
+.projects .content h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #1c1c1b;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #1c1c1b;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #1c1c1b;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #1c1c1b;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+    color: #f4e1d7;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #b9a195;
+    color: #1c1c1b;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/*---------------------------------Media Query*/
