@@ -27,11 +27,19 @@ This is the Website for Villa Designs (insert website link). Villa Designs is a 
 
 
 **Design**
-*  Colour Scheme
+*  Colour Scheme   
+    Three main colours throughout the website were used to match company logo
+    - #f4e1d7
+    - #1c1c1b
+    - #b9a195
 
 *  Typography
 
+    The font Bree Serief has been used for all Headers and Roboto Slab used for the content.
+
 *  Imagery
+
+    The main image on the homepage is designed to be eye catching. The use of images throughout the website have been designed to showcase the products in the best light.  
 
 * Wireframes
 [Villa Design Wireframe](https://balsamiq.cloud/slg90p5/pqsk0xe)
@@ -41,8 +49,9 @@ This is the Website for Villa Designs (insert website link). Villa Designs is a 
 
  * Responsive on all devices
  * Links to social media
- * Contact form
+ * Contact form used
  * Interactive features
+ * Facebook timeline feed 
 
 
  ## Technologies Used
@@ -91,28 +100,83 @@ A selection of devices were used to test the website and the mobile responsivene
 
 **First Time User Goals:**
 *  I want to understand the purpose of the website and learn more about the business.
+
+    (a) The users are initially greated with a header refrencing what the business does.
+
+    (b) Users are greeted with an image of a product.
+
+    (c) On the homepage visitors can learn more about the business read about who Villa designs are. 
 *  I want to be able to navigate the website easily and be able to access content.
+
+    (a) A clear and understandable navbar has been designed so that users go go between pages with ease.
+    (b) All links are tageted to open a new page so users will never have to leave the page.
+
 *  I want to clearly see the product information & prices and be able to order products.
+
+    The users can see the product details below the image and the price is also listed.
+
 *  I want to locate social media links to see if they are trustworthy.  
+
+    Links to social media are clearly located at the bottom of the page which will direct users to the relevant page.
 
 
 **Returning User Goals:**
 *  As a returning visitor, I want to find out about new products.
+
+    (a) The Facebook Timeline will show Users New Products and any news on upcoming events.
+
+    (b) New Products will be listed on the top of the products with new listed in the products description. 
+
 *  I want to be able to contact the business easily.
+
+    (a) Users can find Email & Mobile links on the footer of the page throughot the website.
+
+    (b) Users can find a contact link to Villa designs email address can be found at the top of the products.
+
+    (c) Users can also use the contact form on the Bespoke Projects page.
 
 
 **Site Owners Goals:**  
 *  I want to raise brand awareness.
+
+    (a) The Website provides users with exposure to the Brand and what it stands for.
+
+    (b) Consistently showcases branding imagery through colours and fonts.
+
 *  I want to show case products in an appealing and eye catching way.
-*  I want customers to be able to place orders online. 
+
+    (a) Website uses imagery to showcase products in te best light.
+
+*  I want customers to be able to place orders online.
+    
+    (a) Customers at present cant buy products online but they can email product request to Villa Designs. (this is an area to develop) 
+
 *  I want customers to be able to contact me with bespoke project requests.
+
+    Users can submit there project requests using the bespoke project page.
+
 *  I want to display dates and locations of events/markets we will be at.
 
+    The events & market location, dates are displayed on the Events page and links to the events webpage where available so usres can find out more info.
 ## Bugs
 
+- On smaller devices the facebook feed overlaps the page
+-
+
+## Future Development
+
+A shopping cart feature is an area to develop in the future, currently products are made to order.  
 
 
 ## Deployment 
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository click the "Settings" Button on the menu.
+3. On the Settings page locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. Now above the "GitHub Pages" section the publishe site link will be displayed.
 
 
 
@@ -135,3 +199,5 @@ All content was written by the developer.
 * My Mentor Aaron Sinnott for feedback
 * Tutor support at Code Institute for their support 
 * Code Institute 
+* WS3 schools for refrence on coding issues
+ 
