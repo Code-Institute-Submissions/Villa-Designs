@@ -1,6 +1,6 @@
 # MSP1-Villa-Designs-Website
 
-This is the Website for Villa Designs (insert website link). Villa Designs is a local independent business that specialise in manufacturing and selling woodworking products on a made to order basis. The Website has been designed to be accessible on a range of devices.
+This is the Website for [Villa Designs](https://leeap83.github.io/Villa-Designs/). Villa Designs is a local independent business that specialise in manufacturing and selling woodworking products on a made to order basis. The Website has been designed to be accessible on a range of devices.
 
 ## User Experience (UX)
 
@@ -9,7 +9,7 @@ This is the Website for Villa Designs (insert website link). Villa Designs is a 
 **First Time User Goals:**
 *  I want to understand the purpose of the website and learn more about the business.
 *  I want to be able to navigate the website easily and be able to access content.
-*  I want to clearly see the product information & prices and be able to order products.
+*  I want to clearly see the product informatiton & prices and be able to contact the business about purchasing products or the possibility of making a bespoke item.
 *  I want to locate social media links to see if they are trustworthy.  
 
 
@@ -21,7 +21,7 @@ This is the Website for Villa Designs (insert website link). Villa Designs is a 
 **Site Owners Goals:**  
 *  I want to raise brand awareness.
 *  I want to show case products in an appealing and eye catching way.
-*  I want customers to be able to place orders online. 
+*  I want customers to be able to contact me about purchasing products. 
 *  I want customers to be able to contact me with bespoke project requests.
 *  I want to display dates and locations of events/markets we will be at.
 
@@ -42,7 +42,7 @@ This is the Website for Villa Designs (insert website link). Villa Designs is a 
     The main image on the homepage is designed to be eye catching. The use of images throughout the website have been designed to showcase the products in the best light.  
 
 * Wireframes
-[Villa Design Wireframe](https://balsamiq.cloud/slg90p5/pqsk0xe)
+[Villa Design Wireframe](https://github.com/Leeap83/Villa-Designs/blob/18214af37378403f20857dc97a3b3e8765fce72d/documentation/Villa-Designs%20Wireframes.pdf)
  
 
  ## Features
@@ -111,9 +111,10 @@ A selection of devices were used to test the website and the mobile responsivene
     (a) A clear and understandable navbar has been designed so that users go go between pages with ease.
     (b) All links are tageted to open a new page so users will never have to leave the page.
 
-*  I want to clearly see the product information & prices and be able to order products.
+*  I want to clearly see the product information & prices and be able to contact the business about purchasing products or the possibility of making a bespoke item.
 
-    The users can see the product details below the image and the price is also listed.
+    (a) The users can see the product details below the image and the price is also listed.
+    (b) Users can use the contact here link to enquire about products.
 
 *  I want to locate social media links to see if they are trustworthy.  
 
@@ -147,7 +148,7 @@ A selection of devices were used to test the website and the mobile responsivene
 
     (a) Website uses imagery to showcase products in te best light.
 
-*  I want customers to be able to place orders online.
+*  I want customers to be able to contact me about purchasing products.
     
     (a) Customers at present cant buy products online but they can email product request to Villa Designs. (this is an area to develop) 
 
@@ -158,6 +159,9 @@ A selection of devices were used to test the website and the mobile responsivene
 *  I want to display dates and locations of events/markets we will be at.
 
     The events & market location, dates are displayed on the Events page and links to the events webpage where available so usres can find out more info.
+
+
+
 ## Bugs
 
 - On smaller devices the facebook feed overlaps the page
