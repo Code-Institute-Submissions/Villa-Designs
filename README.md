@@ -44,7 +44,7 @@ This is the Website for [Villa Designs](https://leeap83.github.io/Villa-Designs/
     The main image on the homepage is designed to be eye catching. The use of images throughout the website have been designed to showcase the products in the best light.  
 
 * Wireframes
-[Villa Design Wireframe](https://github.com/Leeap83/Villa-Designs/blob/8e739265ea0557fb92a92034550ea1f6366ef3fc/docs/Villa-Designs%20Wireframes.pdf)
+[Villa Design Wireframe](docs/Villa-Designs%20Wireframes.pdf)
  
 
  ## Features
@@ -97,6 +97,15 @@ This is the Website for [Villa Designs](https://leeap83.github.io/Villa-Designs/
 
 The Website was tested on Internet Explorer, Google Chrome, Firefox and Safari.
 A selection of devices were used to test the website and the mobile responsiveness.
+
+The Code & CSS was validated using [W3C Markup Validator](https://validator.w3.org/)
+
+* [Home Page HTML results]()
+* [Products Page HTML results]()
+* [Events Page HTML results]()
+* [Bespoke Page HTML Results]()
+* [style.css results]()
+
 
 **Testing User Stories**
 
