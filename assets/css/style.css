@@ -5,7 +5,6 @@
 *{
     box-sizing: border-box;
 }
-
 h1,
 h2,
 h3,
@@ -30,39 +29,30 @@ section {
     background-color: #1c1c1b;
     margin-top: 15px;
     }
-
-
 .strap {
     font-family: "Bree Serif";
     color:#f4e1d7;
     background-color: #1c1c1b;
     text-align: center;
-    padding-top: 50px;
-    
+    padding-top: 50px;    
 }
-
 .navbar {
     background-color: #1c1c1b;
 }
-
 header {
     background: #1c1c1b;
 }
-
 header nav {
     float: right;
 }
-
 header nav ul {
     margin: 0;
     padding: 0;
     display: flex;
 }
-
 header nav ul li {
     list-style: none;
 }
-
 header nav ul li a {
     height: 50px;
     line-height: 50px;
@@ -73,11 +63,9 @@ header nav ul li a {
     font-family: "Bree Serif";
     font-size: 22px;
 }
-
 header nav ul li a:hover {
     color: #b9a195;
 }
-
 .menu-toggle {
     color: #f4e1d7;
     float: right;
@@ -90,7 +78,9 @@ header nav ul li a:hover {
 /*-----------------------------Main*/
 
 /*---------------------------Section 1*/
-
+.section-1 {
+    background-color: #f4e1d7;
+}
 .cover {
 width: 100%;
 height: 100vmin;
@@ -106,19 +96,15 @@ background-color: #f4e1d7;
 .section-2 {
     background-color: #b9a195;
 }
-
 .section-2 .panel h1{
     padding-top: 15px;
     color: #f4e1d7;
-}
-.section-2 .panel h3{
+}.section-2 .panel h3{
     color: #f4e1d7;
 }
-
 a {
     color: #f4e1d7;
 }
-
 .section-2 .facebook {
     position: static;
     width: 100%;
@@ -130,11 +116,9 @@ a {
     font-size: 22px;
     font-family: Roboto Slab;
 }
-
 .team-a {
     display: inline-block;
 }
-
 .team-a img {
     border-radius: 45%;
     height: 200px;
@@ -148,16 +132,13 @@ footer {
     background-color: #1c1c1b;
     min-height: 100px;
     margin: 0;
-    overflow-x: hidden;
-        
+    overflow-x: hidden;        
 }
-
 .social-networks {
     text-align: center;
     min-height: 100px;
     margin: 0;
 }
-
 .social-networks li a i {
     width: 100%;
     margin-top: 20px;
@@ -183,40 +164,33 @@ footer {
     background: url(../images/img12.jpg);
     background-size: cover;
 }
-
 .projects .content {
     max-width: 800px;
     align-items: center;
 }
-
 .projects .content h2 {
     font-size: 36px;
     color: #fafafa;
 }
-
 .projects .content p {
     font-weight: 300;
     color: #fafafa;
 }
-
 .contact-form {
     width: 100%;
     padding: 40px;
     background: #f4e1d7;    
 }
-
 .projects .content h3 {
     font-size: 36px;
     font-weight: 500;
     color: #1c1c1b;
 }
-
 .contact-form .input-box {
     position: relative;
     width: 100%;
     margin-top: 10px;
 }
-
 .contact-form .input-box input {
     width: 100%;
     padding: 5px 0;
@@ -227,7 +201,6 @@ footer {
     outline: none;
     resize: none;
 }
-
 .contact-form .input-box textarea {
     width: 100%;
     padding: 5px 0;
@@ -238,7 +211,6 @@ footer {
     outline: none;
     resize: none;
 }
-
 .contact-form .input-box span {
     position: absolute;
     left: 0;
@@ -249,7 +221,6 @@ footer {
     transition: 0.5s;
     color: #1c1c1b;
 }
-
 .contact-form .input-box input:focus ~ span,
 .contact-form .input-box input:valid ~ span,
 .contact-form .input-box textarea:focus ~ span,
@@ -258,7 +229,6 @@ footer {
     font-size: 12px;
     transform: translateY(-20px);
 }
-
 .contact-form .input-box input[type="submit"] {
     width: 100px;
     background: #b9a195;
@@ -274,7 +244,6 @@ footer {
 .gallery-block {
     background-color: #f4e1d7;
 }
-
 h2 {
    width: 100%;
    margin-top: 15px;
@@ -282,12 +251,9 @@ h2 {
    text-align: center;
    font-size: 36px;    
 }
-
 .heading p {
     text-align: center;
-
 }
-
 .products-container{
     clear: both;
     line-height: 0;
@@ -299,23 +265,21 @@ h2 {
     padding-bottom: 15px;
     background-color: #f4e1d7;
 }
-
 .card-body {
     background-color: #fff;
 }
+
 /*--------------------------------Events Page*/
 
 .eventsHeader {
     text-align: center;
 }
-
 .timeline {
     position: relative;
     padding: 40px 0;
     width: 100%;
     background-color: #f4e1d7;
 }
-
 .timeline:before {
     content: '';
     position: absolute;
@@ -323,14 +287,13 @@ h2 {
     width: 2px;
     height: 100%;
     background: #1c1c1b;
+    clear: both;
 }
-
 .timeline ul {
     margin: 0;
     padding: 25px;
     clear:both;    
 }
-
 .timeline ul li {
     list-style: none;
     position: relative;
@@ -340,33 +303,25 @@ h2 {
     background-color:#b9a195;
     border-radius: 10px;          
 }
-
-.timeline ul li:nth-child(odd) {
-    
+.timeline ul li:nth-child(odd) {    
     text-align: center;
     clear: both;
 }
-
 .timeline ul li:nth-child(even) {
     float: right;
     text-align: center;
     clear: both;
 }
-
-
 .timeline ul li h3 {
     margin: 0;
     padding: 0;
     font-family: "Bree Serif";
-    color: #f4e1d7;
-    
+    color: #f4e1d7;    
 }
-
 .timeline ul li p {
     font-family: "Roboto Slab";
     padding: 0;
-    word-wrap: normal;
-    
+    word-wrap: normal;    
 }
 .timeline ul li h4 {
     margin: 0;
@@ -384,17 +339,15 @@ h2 {
 /*-------------------------Media Query*/
 
 @media (max-width: 429px){
-    header {
-        padding: 0 20px;
-    }
+header {
+    padding: 0 20px;
+}
 .menu-toggle {
     display: block;
 }
-header nav {
-    
+header nav {    
     position: absolute;
-    width: 100%;
-    
+    width: 100%;    
     background: #1c1c1b;
     top: 200px;
     left: -100%;
@@ -403,12 +356,10 @@ header nav {
 header nav.active {
     left: 0;
 }
-
 header nav ul {
     display: block;
     margin-top: 0px;
-    height: auto;
-    
+    height: auto;    
 }
 header nav ul li {
     border-bottom: 1px solid rgba(245,255,215,.2)
@@ -419,7 +370,6 @@ header nav ul li {
 .content .facebook {
     padding: 0;
     margin: 0;
-
 }
 .timeline ul li h3 {
     font-size: 1rem;
@@ -427,7 +377,6 @@ header nav ul li {
 .card-body h5 {
     font-size: 12px;
 }
-
 .timeline ul li {
     list-style: none;
     position: relative;
@@ -439,19 +388,17 @@ header nav ul li {
     margin-left: -10px;
     margin-right: -10px;
 }
-
+}
 @media (max-width: 992px){
-    header {
+header {
         padding: 0 20px;
 }
-
 .cover {
     height: 50vmin;
 }
 .section-2 .col-md-6 .facebook {
     padding-right: 0;
-    padding-left: 0;
-    
+    padding-left: 0;    
 }
 .timeline ul li h3 {
     font-size: 1rem;
