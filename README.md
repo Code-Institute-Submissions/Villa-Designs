@@ -42,7 +42,7 @@ This is the Website for [Villa Designs](https://leeap83.github.io/Villa-Designs/
     The main image on the homepage is designed to be eye catching. The use of images throughout the website have been designed to showcase the products in the best light.  
 
 * Wireframes
-[Villa Design Wireframe](https://github.com/Leeap83/Villa-Designs/blob/18214af37378403f20857dc97a3b3e8765fce72d/documentation/Villa-Designs%20Wireframes.pdf)
+[Villa Design Wireframe](https://github.com/Leeap83/Villa-Designs/blob/8e739265ea0557fb92a92034550ea1f6366ef3fc/docs/Villa-Designs%20Wireframes.pdf)
  
 
  ## Features
