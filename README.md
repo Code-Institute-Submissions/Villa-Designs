@@ -98,13 +98,11 @@ This is the Website for [Villa Designs](https://leeap83.github.io/Villa-Designs/
 The Website was tested on Internet Explorer, Google Chrome, Firefox and Safari.
 A selection of devices were used to test the website and the mobile responsiveness.
 
-The Code & CSS was validated using [W3C Markup Validator](https://validator.w3.org/)
+The Freeformatter HTML Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no errors in the project.
 
-* [Home Page HTML results]()
-* [Products Page HTML results]()
-* [Events Page HTML results]()
-* [Bespoke Page HTML Results]()
-* [style.css results]()
+[CSS Validator](https://validator.w3.org/) - [Results](docs/CSS-Validation.pdf)
+
+[HTML Validator](https://www.freeformatter.com/html-validator.html) - [Results](docs/HTML-Validation.pdf)
 
 
 **Testing User Stories**
@@ -176,7 +174,6 @@ The Code & CSS was validated using [W3C Markup Validator](https://validator.w3.o
 ## Bugs
 
 - On smaller devices the facebook feed overlaps the page
--
 
 ## Future Development
 
