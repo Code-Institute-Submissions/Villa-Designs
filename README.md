@@ -1,5 +1,7 @@
 # MSP1-Villa-Designs-Website
 
+![Screenshot](assets/images/villa-designs-devices-image.jpg)
+
 This is the Website for [Villa Designs](https://leeap83.github.io/Villa-Designs/). Villa Designs is a local independent business that specialise in manufacturing and selling woodworking products on a made to order basis. The Website has been designed to be accessible on a range of devices.
 
 ## User Experience (UX)
