@@ -254,6 +254,9 @@ h2 {
 .heading p {
     text-align: center;
 }
+a {
+    color: #1c1c1b;
+}
 .products-container{
     clear: both;
     line-height: 0;
