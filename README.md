@@ -232,6 +232,7 @@ All content was written by the developer.
 
 * My Mentor Aaron Sinnott for feedback
 * Tutor support at Code Institute for their support 
-* Code Institute 
+* Code Institute for training
 * WS3 schools for reference on coding issues
+* YouTube online tutorials used when encountered coding issues
  
