@@ -178,11 +178,12 @@ The Freeformatter HTML Validator and W3C CSS Validator Services were used to val
 ## Bugs
 
 - On smaller devices, the Facebook feed overlaps the page
+- The submit button on the besoke form is not active
 
 ## Future Development
 
-A shopping cart feature is an area to develop in the future currently products are made to order.  
-
+- A shopping cart feature is an area to develop in the future currently products are made to order.  
+- Further training on PHP and Java Script required in order to activate the form submit action.
 
 ## Deployment 
 
